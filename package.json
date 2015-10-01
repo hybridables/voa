@@ -1,0 +1,29 @@
+{
+  "name": "voa",
+  "version": "0.0.0",
+  "description": "Acts like `co@4` and also is drop-in replacement for it. Built on top of `merz`, actually thanks to `always-done`. But accept everything, not only generators - sync functions, async functions, callbacks and more. Flow-control for now and then.",
+  "repository": "hybridables/voa",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "always-promise": "^1.1.0",
+    "sliced": "^1.0.1"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "bluebird": "^2.10.1",
+    "is-promise": "^2.1.0",
+    "mz": "^2.0.0",
+    "rx": "^4.0.0",
+    "semver": "^5.0.3",
+    "through2": "^2.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": []
+}
