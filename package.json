@@ -1,7 +1,7 @@
 {
   "name": "voa",
   "version": "0.1.0",
-  "description": "Acts like `co@4` and also is drop-in replacement for it. Built on top of `merz`, actually thanks to `always-done`. But accept everything, not only generators - sync functions, async functions, callbacks and more. Flow-control for now and then.",
+  "description": "Acts like `co@4` and also is drop-in replacement for it (pass 100% of the tests). Built on top of `merz`, actually thanks to `always-done`. But accept everything, not only generators - sync functions, async functions, callbacks and more. Flow-control for now and then.",
   "repository": "hybridables/voa",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
   "main": "index.js",
@@ -25,5 +25,40 @@
   "files": [
     "index.js"
   ],
-  "keywords": []
+  "keywords": [
+    "async",
+    "asynchronous",
+    "callback",
+    "cb",
+    "child",
+    "child-process",
+    "co",
+    "coify",
+    "compat",
+    "compatibility",
+    "control",
+    "control-flow",
+    "done",
+    "drop",
+    "drop-in",
+    "es",
+    "flow",
+    "flow-control",
+    "fn",
+    "func",
+    "function",
+    "gen",
+    "generatorify",
+    "generators",
+    "gengn",
+    "in",
+    "next",
+    "process",
+    "promise",
+    "promisify",
+    "replacement",
+    "sync",
+    "synchronous",
+    "thenify"
+  ]
 }
