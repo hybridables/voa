@@ -22,10 +22,9 @@ describe('co.wrap(fn*)', function () {
     })(1, 2, 3)
   })
 
-  // not needed in our
-  // it('should expose the underlying generator function', function () {
-  //   var wrapped = co.wrap(function * (a, b, c) {})
-  //   var source = Object.toString.call(wrapped.__generatorFunction__)
-  //   assert(source.indexOf('function*') === 0)
-  // })
+  it('should expose the underlying generator function', function () {
+    var wrapped = co.wrap(function * (a, b, c) {})
+    var source = Object.toString.call(wrapped.__generatorFunction__)
+    assert.strictEqual(source.indexOf('function*'), 0)
+  })
 })
