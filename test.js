@@ -52,9 +52,13 @@ if (semver.gte(process.version, '0.11.13')) {
     require('./test/generators')
     done()
   })
-  // start implementing co@4 tests
-  // test('co tests', function (done) {
-  //   require('./test/co/index')
-  //   done()
-  // })
+  test('co tests', function (done) {
+    var fs = require('fs')
+    var path = require('path')
+    var dir = path.join(__dirname, 'test', 'co')
+    fs.readdirSync(dir).forEach(function (filename) {
+      require(path.join(dir, filename))
+    })
+    done()
+  })
 }
